@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlesLayout.PaginaMenu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Menu Layout"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="botonframe" Text="botonframe" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="botonlayout" Text="Layout C#" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
