@@ -14,7 +14,8 @@ namespace ControlesLayout
 
             //MainPage = new NavigationPage(new PaginaMenu());
 
-            MainPage = new TipoAlerta();
+            //MainPage = new TipoAlerta();
+            MainPage = new PaginaEstilos();
         }
 
         protected override void OnStart()
